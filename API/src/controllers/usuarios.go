@@ -19,5 +19,5 @@ func AtualizarUsuarioPorID(w http.ResponseWriter, r *http.Request){
 }
 
 func RemoverUsuarioPorID(w http.ResponseWriter, r *http.Request){
-	w.Write([]byte("Removendo usuario por ID."))
+	w.Write([]byte("Remover usuario por ID."))
 }
